@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+    float: right;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+
+    flex-direction: row;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li a{
+    color:gray;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+
+#header-img{
+    height: 100px;
+    width: 500px;
+    float: right;
+}
+@media(max-width:400px){
+    header img{
+        height: 50px;
+        width: 100px;
+    }
+}
